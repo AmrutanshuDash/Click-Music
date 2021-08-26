@@ -1,2 +1,2 @@
 # Click-Music
-WebApp having a easy to use click test sounds 
+WebApp having easy to use click test sounds. 
