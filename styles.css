@@ -1,0 +1,83 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    color: azure;
+    background-image: url("john-matychuk-gUK3lA3K7Yo-unsplash.jpg");
+    background-size: 100% 72%;
+}
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+header h1{
+    margin: 50px 0px 30px 500px;
+    /* text-align: center; */
+    font-size: 40px;
+}
+header p{
+    font-size: 25px;
+    margin-left: 480px;
+}
+.pads{
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.pads>div{
+    height: 200px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1{
+    background: #006400;
+}
+.pad2{
+    background: #f08080;
+}
+.pad3{
+    background: #40e0d0;
+}
+.pad4{
+    background: #8a2be2;
+}
+.pad5{
+    background: #ee2dae;
+}
+.pad6{
+    background: #ffd700;
+}
+
+.visual > div{
+    position: absolute;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    transform: scale(1);
+    z-index: -1;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 65%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+}
